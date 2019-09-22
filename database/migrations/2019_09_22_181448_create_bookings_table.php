@@ -20,7 +20,7 @@ class CreateBookingsTable extends Migration
             $table->string('email');
             $table->string('address');
             $table->string('car_type');
-            $table->string('status');        
+            $table->string('status')->default('pending');        
             $table->timestamps();
         });
     }

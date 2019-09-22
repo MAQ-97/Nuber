@@ -21,6 +21,7 @@ class Booking extends JsonResource
             'address'    => $this->address,
             'car_type'   => $this->car_type,
             'reference'  => $this->reference,
+            'status'     => $this->status,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];
