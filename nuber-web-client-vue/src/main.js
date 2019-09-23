@@ -7,9 +7,10 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 import Dashboard from './components/Dashboard.vue';
+import bookings from './components/bookings.vue';
 
 const routes = [
-  { path: '/', component: Dashboard },
+  { path: '/', component: bookings },
 ]
 
 const router = new VueRouter({
